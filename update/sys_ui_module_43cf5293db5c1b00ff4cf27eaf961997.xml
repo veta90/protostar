@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Protostar">c3cf5293db5c1b00ff4cf27eaf961995</application>
+        <filter/>
+        <name>Vehicles</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_protostar_cv.vehicle_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-20 22:39:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>43cf5293db5c1b00ff4cf27eaf961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicles</sys_name>
+        <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
+        <sys_update_name>sys_ui_module_43cf5293db5c1b00ff4cf27eaf961997</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-20 22:39:07</sys_updated_on>
+        <table>x_snc_protostar_cv_vehicle</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
