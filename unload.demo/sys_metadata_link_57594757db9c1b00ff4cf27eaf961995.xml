@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>7b626ad3db5c1b00ff4cf27eaf961950</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_protostar_cv_vehicle">
+    <x_snc_protostar_cv_vehicle action="INSERT_OR_UPDATE">
+        <api_access_token>S2LTGWfB4nVd7QLTC8zUZ_TXxjwOQQFnZLrf3m871wzQpDnX7aTh3q2bwGqJty0apUFHrsTguKG_p_YFTwrVpeJbZUVfXExCLO8ZqLnvaQSgE-1r-hlkSMFWvbDAjhE6bA</api_access_token>
+        <api_car_id>C25FA6077A53000296</api_car_id>
+        <number>VEH0001001</number>
+        <odometer>3000</odometer>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-20 22:51:09</sys_created_on>
+        <sys_id>7b626ad3db5c1b00ff4cf27eaf961950</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-21 01:34:00</sys_updated_on>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+    </x_snc_protostar_cv_vehicle>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-21 01:40:43</sys_created_on>
+        <sys_id>57594757db9c1b00ff4cf27eaf961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3,000</sys_name>
+        <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
+        <sys_update_name>sys_metadata_link_57594757db9c1b00ff4cf27eaf961995</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-21 01:40:43</sys_updated_on>
+        <tablename>x_snc_protostar_cv_vehicle</tablename>
+    </sys_metadata_link>
+</record_update>
