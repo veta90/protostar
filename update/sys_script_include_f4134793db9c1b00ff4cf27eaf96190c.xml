@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_protostar_cv.VehicleUtils</api_name>
+        <client_callable>false</client_callable>
+        <description>Protostar vehicle utils</description>
+        <name>VehicleUtils</name>
+        <script><![CDATA[var VehicleUtils = Class.create();
+VehicleUtils.prototype = {
+    initialize: function() {
+    },
+	//receives glide record vehicle
+	//creates an api call and updates vehicle odometer
+	updateOdometer: function(vehicle){
+		try { 
+			var r = new sn_ws.RESTMessageV2('x_snc_protostar_cv.Get Odometer', 'Default GET');
+			r.setStringParameterNoEscape('API_Token', vehicle.api_access_token);
+			r.setStringParameterNoEscape('CarID', vehicle.api_car_id);
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			
+			var parsed = JSON.parse(responseBody);
+			if (!parsed.odometer)
+				return;
+			vehicle.odometer = parsed.odometer.value;
+			vehicle.update();
+		} catch(ex) {
+			var message = ex.getMessage();
+		}
+	},
+	//update all odometer values on the vehicles. Ignore the offline ones
+	updateAllOdometers: function (){
+		var gr = new GlideRecord('x_snc_protostar_cv_vehicle');
+		gr.query();
+		while(gr.next()) {
+		 this.updateOdometer(gr);
+		}
+	},
+    type: 'VehicleUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-21 01:15:46</sys_created_on>
+        <sys_id>f4134793db9c1b00ff4cf27eaf96190c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>VehicleUtils</sys_name>
+        <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
+        <sys_update_name>sys_script_include_f4134793db9c1b00ff4cf27eaf96190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-21 01:36:22</sys_updated_on>
+    </sys_script_include>
+</record_update>

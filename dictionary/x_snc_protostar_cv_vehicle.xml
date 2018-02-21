@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Vehicle" max_length="40" name="x_snc_protostar_cv_vehicle" type="collection">
-        <element label="API Access Token" mandatory="true" max_length="100" name="api_access_token" type="string"/>
+        <element label="API Access Token" mandatory="true" max_length="200" name="api_access_token" type="string"/>
         <element label="API Car ID" mandatory="true" max_length="40" name="api_car_id" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element display="true" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element display="true" label="Odometer" max_length="20" name="odometer" type="decimal"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="user"/>
         </index>
