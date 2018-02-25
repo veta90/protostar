@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="second_maintenance" table="x_snc_protostar_cv_vehicle">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="second_maintenance_notification_sent" table="x_snc_protostar_cv_vehicle">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Second maintenance</column_label>
+        <column_label>Second Maintenance Notification Sent</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,20 +28,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>second_maintenance</element>
+        <element>second_maintenance_notification_sent</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
+        <max_length>40</max_length>
         <name>x_snc_protostar_cv_vehicle</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_snc_protostar_cv_vehicle_service">x_snc_protostar_cv_vehicle_service</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-25 04:31:23</sys_created_on>
-        <sys_id>e8ba2c74dbe4db00ff4cf27eaf96192f</sys_id>
+        <sys_created_on>2018-02-25 14:22:59</sys_created_on>
+        <sys_id>b8dd9a38dbe8db00ff4cf27eaf961990</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Second maintenance</sys_name>
+        <sys_name>Second Maintenance Notification Sent</sys_name>
         <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_protostar_cv_vehicle_second_maintenance</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-02-25 05:58:26</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_snc_protostar_cv_vehicle_second_maintenance_notification_sent</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-25 14:22:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

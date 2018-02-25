@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_protostar_cv_vehicle</description>
+        <name>x_snc_protostar_cv_vehicle</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-25 14:23:01</sys_created_on>
+        <sys_id>603e1278dbe8db00ff4cf27eaf9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_protostar_cv_vehicle</sys_name>
+        <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
+        <sys_update_name>sys_security_acl_603e1278dbe8db00ff4cf27eaf9619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-25 14:23:01</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

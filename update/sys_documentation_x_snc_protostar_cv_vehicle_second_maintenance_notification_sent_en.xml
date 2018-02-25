@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="second_maintenance" label="Second maintenance" language="en" table="x_snc_protostar_cv_vehicle">
+    <sys_documentation element="second_maintenance_notification_sent" label="Second Maintenance Notification Sent" language="en" table="x_snc_protostar_cv_vehicle">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>second_maintenance</element>
+            <element>second_maintenance_notification_sent</element>
             <help/>
             <hint/>
-            <label>Second maintenance</label>
+            <label>Second Maintenance Notification Sent</label>
             <language>en</language>
             <name>x_snc_protostar_cv_vehicle</name>
-            <plural>Second maintenances</plural>
+            <plural>Second Maintenance Notification Sents</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:31:23</sys_created_on>
-            <sys_id>46c6d0f4dba4db00ff4cf27eaf961915</sys_id>
+            <sys_created_on>2018-02-25 14:22:59</sys_created_on>
+            <sys_id>583e1278dbe8db00ff4cf27eaf96198f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Second maintenance</sys_name>
+            <sys_name>Second Maintenance Notification Sent</sys_name>
             <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
             <sys_policy/>
             <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_protostar_cv_vehicle_second_maintenance_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_protostar_cv_vehicle_second_maintenance_notification_sent_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:31:23</sys_updated_on>
+            <sys_updated_on>2018-02-25 14:22:59</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -3,18 +3,12 @@
     <element label="Vehicle" max_length="40" name="x_snc_protostar_cv_vehicle" type="collection">
         <element label="API Access Token" mandatory="true" max_length="200" name="api_access_token" type="string"/>
         <element label="API Car ID" mandatory="true" max_length="40" name="api_car_id" type="string"/>
-        <element label="First maintenance" max_length="32" name="first_maintenance" reference="x_snc_protostar_cv_vehicle_service" type="reference"/>
+        <element label="First Maintenance Notification Sent" max_length="40" name="first_maintenance_notification_sent" type="boolean"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Odometer" max_length="20" name="odometer" read_only="true" type="decimal"/>
-        <element label="Second maintenance" max_length="32" name="second_maintenance" reference="x_snc_protostar_cv_vehicle_service" type="reference"/>
+        <element label="Second Maintenance Notification Sent" max_length="40" name="second_maintenance_notification_sent" type="boolean"/>
         <element display="true" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">
-            <element name="first_maintenance"/>
-        </index>
-        <index name="index2">
-            <element name="second_maintenance"/>
-        </index>
-        <index name="index3">
             <element name="user"/>
         </index>
     </element>
