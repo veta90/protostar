@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:43</sys_created_on>
-            <sys_id>842c1cb8dba4db00ff4cf27eaf961972</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>c93120bcdba4db00ff4cf27eaf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:43</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,41 +19,41 @@
             <element>assigned_to</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:43</sys_created_on>
-            <sys_id>082c1cb8dba4db00ff4cf27eaf961972</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>4d3120bcdba4db00ff4cf27eaf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:43</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci</element>
+            <element>vehicle</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:43</sys_created_on>
-            <sys_id>882c1cb8dba4db00ff4cf27eaf961972</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>cd3120bcdba4db00ff4cf27eaf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:43</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
+            <element>expected_start</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:43</sys_created_on>
-            <sys_id>0c2c1cb8dba4db00ff4cf27eaf961972</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>413120bcdba4db00ff4cf27eaf96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:43</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:43</sys_created_on>
-            <sys_id>8c2c1cb8dba4db00ff4cf27eaf961972</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>c13120bcdba4db00ff4cf27eaf96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:43</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -75,111 +75,111 @@
             <element>priority</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:44</sys_created_on>
-            <sys_id>002c1cb8dba4db00ff4cf27eaf961973</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>453120bcdba4db00ff4cf27eaf96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:44</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
+            <element>service_status</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:44</sys_created_on>
-            <sys_id>802c1cb8dba4db00ff4cf27eaf961973</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>c53120bcdba4db00ff4cf27eaf96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:44</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
+            <element>work_start</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:44</sys_created_on>
-            <sys_id>042c1cb8dba4db00ff4cf27eaf961973</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>493120bcdba4db00ff4cf27eaf96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:44</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_end</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>c93120bcdba4db00ff4cf27eaf96198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:44</sys_created_on>
-            <sys_id>842c1cb8dba4db00ff4cf27eaf961973</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>4d3120bcdba4db00ff4cf27eaf96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:44</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:44</sys_created_on>
-            <sys_id>082c1cb8dba4db00ff4cf27eaf961973</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>cd3120bcdba4db00ff4cf27eaf96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:44</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:44</sys_created_on>
-            <sys_id>882c1cb8dba4db00ff4cf27eaf961973</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>413120bcdba4db00ff4cf27eaf96198d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:44</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:44</sys_created_on>
-            <sys_id>0c2c1cb8dba4db00ff4cf27eaf961973</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>vehicle</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 04:54:44</sys_created_on>
-            <sys_id>8c2c1cb8dba4db00ff4cf27eaf961973</sys_id>
+            <sys_created_on>2018-02-25 05:16:55</sys_created_on>
+            <sys_id>c13120bcdba4db00ff4cf27eaf96198d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_protostar_cv_vehicle_service" sys_domain="global" view="Default view">38db9478dba4db00ff4cf27eaf961955</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 04:54:44</sys_updated_on>
+            <sys_updated_on>2018-02-25 05:16:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
