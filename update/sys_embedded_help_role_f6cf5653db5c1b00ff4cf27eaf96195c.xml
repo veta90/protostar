@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_snc_protostar_cv.vehicle_user" name="x_snc_protostar_cv.vehicle_user">bacf5653db5c1b00ff4cf27eaf961959</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-20 22:39:06</sys_created_on>

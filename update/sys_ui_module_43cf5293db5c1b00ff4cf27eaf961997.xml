@@ -8,7 +8,7 @@
         <order/>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
-        <roles>x_snc_protostar_cv.vehicle_user,x_snc_protostar_cv.staff</roles>
+        <roles>x_snc_protostar_cv.staff</roles>
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-20 22:39:07</sys_created_on>

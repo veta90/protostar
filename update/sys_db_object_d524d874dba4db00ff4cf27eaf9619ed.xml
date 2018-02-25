@@ -33,7 +33,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-02-25 04:20:42</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_snc_protostar_cv.vehicle_service_user" name="x_snc_protostar_cv.vehicle_service_user">4554d874dba4db00ff4cf27eaf961983</user_role>
+        <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
