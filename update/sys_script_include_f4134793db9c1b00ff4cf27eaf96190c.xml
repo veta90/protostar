@@ -64,17 +64,14 @@ VehicleUtils.prototype = {
 		gr.setValue('vehicle', vehicle.sys_id);
 		gr.setValue('service_status', 'Booking Scheduled');
 		gr.setValue('short_description', 'Service Request for ' + vehicle.number);
+		if (freeMaintenanceNumber==1 || freeMaintenanceNumber==2) {
+			gr.setValue('service_status', 'Notification Sent');
+		}
 		gr.insert();
-		if (freeMaintenanceNumber==1){
+		if (freeMaintenanceNumber==1) {
 			vehicle.first_maintenance=gr.sys_id;
-			gr.setValue('service_status', 'Notification Sent');
-			gr.setValue('short_description', 'First Service Request for ' + vehicle.number);
-			gr.update();
-		}else if (freeMaintenanceNumber==2){
+		}else if (freeMaintenanceNumber==2) {
 			vehicle.second_maintenance=gr.sys_id;
-			gr.setValue('service_status', 'Notification Sent');
-			gr.setValue('short_description', 'Second Service Request for ' + vehicle.number);
-			gr.update();
 		}
 		vehicle.update();
 	},
@@ -84,13 +81,13 @@ VehicleUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-21 01:15:46</sys_created_on>
         <sys_id>f4134793db9c1b00ff4cf27eaf96190c</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>VehicleUtils</sys_name>
         <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
         <sys_update_name>sys_script_include_f4134793db9c1b00ff4cf27eaf96190c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-25 06:12:25</sys_updated_on>
+        <sys_updated_on>2018-02-25 07:29:20</sys_updated_on>
     </sys_script_include>
 </record_update>

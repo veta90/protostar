@@ -32,12 +32,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-25 06:57:39</sys_created_on>
         <sys_id>ac083470db28db00ff4cf27eaf96199b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-25 07:20:30</sys_updated_on>
+        <sys_updated_on>2018-02-25 07:25:58</sys_updated_on>
         <table>x_snc_protostar_cv_vehicle</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Update odometer">f4483470db28db00ff4cf27eaf9619a5</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
