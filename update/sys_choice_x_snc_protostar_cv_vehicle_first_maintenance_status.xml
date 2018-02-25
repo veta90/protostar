@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="first_maintenance_status" table="x_snc_protostar_cv_vehicle" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_maintenance_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not qualified</label>
+            <language>en</language>
+            <name>x_snc_protostar_cv_vehicle</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 03:04:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6dd2c03cdb64db00ff4cf27eaf96192b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 03:06:03</sys_updated_on>
+            <value>Not qualified</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_maintenance_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Notification sent</label>
+            <language>en</language>
+            <name>x_snc_protostar_cv_vehicle</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 03:05:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a03803cdb64db00ff4cf27eaf9619ce</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 03:06:07</sys_updated_on>
+            <value>Notification sent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_maintenance_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Booking done</label>
+            <language>en</language>
+            <name>x_snc_protostar_cv_vehicle</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 03:05:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a13c03cdb64db00ff4cf27eaf961935</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 03:06:09</sys_updated_on>
+            <value>Booking done</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_maintenance_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maintenance Performed</label>
+            <language>en</language>
+            <name>x_snc_protostar_cv_vehicle</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 03:05:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca23803cdb64db00ff4cf27eaf9619db</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 03:06:10</sys_updated_on>
+            <value>Maintenance Performed</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>first_maintenance_status</element>
+            <name>x_snc_protostar_cv_vehicle</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 03:04:58</sys_created_on>
+            <sys_id>1803803cdb64db00ff4cf27eaf9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>first_maintenance_status</sys_name>
+            <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
+            <sys_update_name>sys_choice_x_snc_protostar_cv_vehicle_first_maintenance_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 03:04:58</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

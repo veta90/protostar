@@ -41,19 +41,34 @@ VehicleUtils.prototype = {
 		 this.updateOdometer(gr);
 		}
 	},
+	kickOffUpdateOdometersWorkflowForAllRecords: function (){
+		var gr = new GlideRecord('x_snc_protostar_cv_vehicle');
+		gr.query();
+		while(gr.next()) {
+		 this.kickOffUpdateOdometersWorkflow(gr);
+		}
+	},
+	kickOffUpdateOdometersWorkflow: function(vehicle){
+		
+		var wf = new global.Workflow();
+		var wfId = wf.getWorkflowFromName("Update odometer");
+		var vars = {};
+	    wf.startFlow(wfId, vehicle, "Update odometer", vars);
+		gs.addInfoMessage('Workflow initiated for car: .'+vehicle.number);
+	},
     type: 'VehicleUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-21 01:15:46</sys_created_on>
         <sys_id>f4134793db9c1b00ff4cf27eaf96190c</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>VehicleUtils</sys_name>
         <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
         <sys_update_name>sys_script_include_f4134793db9c1b00ff4cf27eaf96190c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-21 08:41:16</sys_updated_on>
+        <sys_updated_on>2018-02-25 02:21:35</sys_updated_on>
     </sys_script_include>
 </record_update>
