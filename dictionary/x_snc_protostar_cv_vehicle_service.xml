@@ -6,7 +6,6 @@
                 <element label="Booking Scheduled" value="Booking Scheduled"/>
                 <element label="Done" value="Done"/>
                 <element label="Service in Progress" value="Sercice in Progress"/>
-                <element label="Notification Sent" sequence="1" value="Notification Sent"/>
             </choice>
         </element>
         <element label="Vehicle" max_length="32" name="vehicle" reference="x_snc_protostar_cv_vehicle" type="reference"/>
