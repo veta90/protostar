@@ -2,7 +2,7 @@
 <record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Services for today">d8c724f0dbe4db00ff4cf27eaf961938</report_id>
+        <report_id display_value="Total Services">d8c724f0dbe4db00ff4cf27eaf961938</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-25 05:45:32</sys_created_on>
