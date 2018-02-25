@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-02-25 14:18:32">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-25 09:26:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>276a51f4db68db00ff4cf27eaf96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_protostar</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
+        <sys_update_name>sys_portal_page_276a51f4db68db00ff4cf27eaf96199b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-25 09:26:56</sys_updated_on>
+        <title>catalog_protostar</title>
+        <user/>
+        <view>catalog_protostar</view>
+    </sys_portal_page>
+</record_update>

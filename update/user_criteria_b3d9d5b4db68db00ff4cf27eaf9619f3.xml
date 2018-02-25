@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group name="Protostar users">ccc6fea0dbe0db00ff4cf27eaf96190c</group>
+        <location/>
+        <match_all>false</match_all>
+        <name>Protostar users</name>
+        <role/>
+        <script/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-25 09:24:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3d9d5b4db68db00ff4cf27eaf9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Protostar users</sys_name>
+        <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
+        <sys_update_name>user_criteria_b3d9d5b4db68db00ff4cf27eaf9619f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-25 09:24:48</sys_updated_on>
+        <user/>
+    </user_criteria>
+</record_update>
