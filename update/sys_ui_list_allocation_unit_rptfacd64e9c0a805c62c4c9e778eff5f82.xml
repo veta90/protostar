@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>cmdb_ci</element>
-            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="5fc4ec30dbe4db00ff4cf27eaf961901">5bc4ec30dbe4db00ff4cf27eaf961902</list_id>
+            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="a2ba6c74dbe4db00ff4cf27eaf96198c">5bc4ec30dbe4db00ff4cf27eaf961902</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>total_units</element>
-            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="5fc4ec30dbe4db00ff4cf27eaf961901">5bc4ec30dbe4db00ff4cf27eaf961902</list_id>
+            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="a2ba6c74dbe4db00ff4cf27eaf96198c">5bc4ec30dbe4db00ff4cf27eaf961902</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>allocated_units</element>
-            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="5fc4ec30dbe4db00ff4cf27eaf961901">5bc4ec30dbe4db00ff4cf27eaf961902</list_id>
+            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="a2ba6c74dbe4db00ff4cf27eaf96198c">5bc4ec30dbe4db00ff4cf27eaf961902</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>available_units</element>
-            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="5fc4ec30dbe4db00ff4cf27eaf961901">5bc4ec30dbe4db00ff4cf27eaf961902</list_id>
+            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="a2ba6c74dbe4db00ff4cf27eaf96198c">5bc4ec30dbe4db00ff4cf27eaf961902</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -86,7 +86,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-02-25 05:32:38</sys_updated_on>
             <sys_user/>
-            <view display_value="Rptfacd64e9c0a805c62c4c9e778eff5f82" name="RPTfacd64e9c0a805c62c4c9e778eff5f82">5fc4ec30dbe4db00ff4cf27eaf961901</view>
+            <view display_value="Rptfacd64e9c0a805c62c4c9e778eff5f82" name="RPTfacd64e9c0a805c62c4c9e778eff5f82">a2ba6c74dbe4db00ff4cf27eaf96198c</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
