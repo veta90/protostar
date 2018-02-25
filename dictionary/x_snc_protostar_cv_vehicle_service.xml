@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Vehicle Service" max_length="40" name="x_snc_protostar_cv_vehicle_service" type="collection">
+        <element choice="1" label="Service Status" max_length="40" name="service_status" type="choice">
+            <choice>
+                <element label="Booking Scheduled" value="Booking Scheduled"/>
+                <element label="Done" value="Done"/>
+                <element label="Service in Progress" value="Sercice in Progress"/>
+                <element label="Notification Sent" sequence="1" value="Notification Sent"/>
+            </choice>
+        </element>
+        <element label="Vehicle" max_length="32" name="vehicle" reference="x_snc_protostar_cv_vehicle" type="reference"/>
+    </element>
+</database>

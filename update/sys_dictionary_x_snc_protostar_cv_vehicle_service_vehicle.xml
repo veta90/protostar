@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="first_maintenance_status" table="x_snc_protostar_cv_vehicle">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="vehicle" table="x_snc_protostar_cv_vehicle_service">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -12,13 +12,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>First Maintenance Status</column_label>
+        <column_label>Vehicle</column_label>
         <comments/>
         <create_roles/>
-        <default_value>Not qualified</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -28,20 +28,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>first_maintenance_status</element>
+        <element>vehicle</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>1000</max_length>
-        <name>x_snc_protostar_cv_vehicle</name>
+        <max_length>32</max_length>
+        <name>x_snc_protostar_cv_vehicle_service</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_snc_protostar_cv_vehicle">x_snc_protostar_cv_vehicle</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-25 03:04:03</sys_created_on>
-        <sys_id>5aa0c0f8db64db00ff4cf27eaf961959</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>First Maintenance Status</sys_name>
+        <sys_created_on>2018-02-25 04:46:10</sys_created_on>
+        <sys_id>7e549c74dba4db00ff4cf27eaf961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle</sys_name>
         <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_protostar_cv_vehicle_first_maintenance_status</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_protostar_cv_vehicle_service_vehicle</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-25 03:17:53</sys_updated_on>
+        <sys_updated_on>2018-02-25 04:46:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

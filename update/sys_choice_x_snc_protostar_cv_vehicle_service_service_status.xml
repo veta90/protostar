@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="service_status" table="x_snc_protostar_cv_vehicle_service" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Booking Scheduled</label>
+            <language>en</language>
+            <name>x_snc_protostar_cv_vehicle_service</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 04:22:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1b450b4dba4db00ff4cf27eaf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 04:22:33</sys_updated_on>
+            <value>Booking Scheduled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Done</label>
+            <language>en</language>
+            <name>x_snc_protostar_cv_vehicle_service</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 04:22:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02d490b4dba4db00ff4cf27eaf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 04:22:58</sys_updated_on>
+            <value>Done</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Service in Progress</label>
+            <language>en</language>
+            <name>x_snc_protostar_cv_vehicle_service</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 04:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ac450b4dba4db00ff4cf27eaf96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 04:22:49</sys_updated_on>
+            <value>Sercice in Progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Notification Sent</label>
+            <language>en</language>
+            <name>x_snc_protostar_cv_vehicle_service</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 04:22:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e9450b4dba4db00ff4cf27eaf961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 04:22:09</sys_updated_on>
+            <value>Notification Sent</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>service_status</element>
+            <name>x_snc_protostar_cv_vehicle_service</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-25 04:22:09</sys_created_on>
+            <sys_id>03a450b4dba4db00ff4cf27eaf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>service_status</sys_name>
+            <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
+            <sys_update_name>sys_choice_x_snc_protostar_cv_vehicle_service_service_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-25 04:22:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

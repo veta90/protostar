@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="second_maintenance_status" label="Second Maintenance Status" language="en" table="x_snc_protostar_cv_vehicle">
+    <sys_documentation element="first_maintenance" label="First maintenance" language="en" table="x_snc_protostar_cv_vehicle">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>second_maintenance_status</element>
+            <element>first_maintenance</element>
             <help/>
             <hint/>
-            <label>Second Maintenance Status</label>
+            <label>First maintenance</label>
             <language>en</language>
             <name>x_snc_protostar_cv_vehicle</name>
-            <plural>Second Maintenance Status</plural>
+            <plural>First maintenances</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-25 03:07:07</sys_created_on>
-            <sys_id>7373083cdb64db00ff4cf27eaf961904</sys_id>
+            <sys_created_on>2018-02-25 04:31:23</sys_created_on>
+            <sys_id>86c6d0f4dba4db00ff4cf27eaf961913</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Second Maintenance Status</sys_name>
+            <sys_name>First maintenance</sys_name>
             <sys_package display_value="Protostar Connected Vehicle" source="x_snc_protostar_cv">27b26957dbd81b00ff4cf27eaf96194f</sys_package>
             <sys_policy/>
             <sys_scope display_value="Protostar Connected Vehicle">27b26957dbd81b00ff4cf27eaf96194f</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_protostar_cv_vehicle_second_maintenance_status_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_protostar_cv_vehicle_first_maintenance_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-25 03:07:07</sys_updated_on>
+            <sys_updated_on>2018-02-25 04:31:23</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
