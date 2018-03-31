@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Vehicle Service" max_length="40" name="x_snc_protostar_cv_vehicle_service" type="collection">
+    <element extends="task" label="Vehicle Service" max_length="40" name="x_snc_protostar_cv_vehicle_service" sizeclass="2" type="collection">
         <element choice="1" label="Service Status" max_length="40" name="service_status" type="choice">
             <choice>
                 <element label="Booking Scheduled" value="Booking Scheduled"/>
